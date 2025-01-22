@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BestTAsController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba2bed47bd14379c36f8a74c798e75348a1e3d8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4581d41cf798873b5a8037d2531ea6052b09ac6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BestTAsController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BestTAsController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

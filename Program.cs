@@ -9,6 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AddTwoNumbersServices>();
 builder.Services.AddScoped<ReverseItServices>();
+builder.Services.AddScoped<SayHelloServices>();
 
 var app = builder.Build();
 
