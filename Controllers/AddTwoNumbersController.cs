@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BestTAsController.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BestTAsController.Controllers
@@ -11,7 +12,7 @@ namespace BestTAsController.Controllers
     public class AddTwoNumbersController : ControllerBase
     {
         private readonly AddTwoNumbersServices _addTwoNumbersServices;
-        public AddingTwoNumbers(AddTwoNumbersServices addTwoNumbersServices){
+        public AddTwoNumbersController(AddTwoNumbersServices addTwoNumbersServices){
             _addTwoNumbersServices = addTwoNumbersServices;
         }
         [HttpPost]

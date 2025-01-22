@@ -1,3 +1,4 @@
+using BestTAsController.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +8,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AddTwoNumbersServices>();
+builder.Services.AddScoped<ReverseItServices>();
 
 var app = builder.Build();
 
