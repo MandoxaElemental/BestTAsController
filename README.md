@@ -18,5 +18,5 @@ Create these endpoints:
 
 
 ### Best TAs Controller - Endpoints_GitHub Repository Link:
-[Best TAs Controller - Endpoints GitHub Repository Link]()
+[Best TAs Controller - Endpoints GitHub Repository Link](https://github.com/MandoxaElemental/BestTAsController)
 
