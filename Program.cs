@@ -10,6 +10,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<AddTwoNumbersServices>();
 builder.Services.AddScoped<ReverseItServices>();
 builder.Services.AddScoped<SayHelloServices>();
+builder.Services.AddScoped<SayHelloTwoServices>();
 
 var app = builder.Build();
 
